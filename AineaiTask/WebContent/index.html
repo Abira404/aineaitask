@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/style.css">
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<div class="bar">
+		<a href=""><img src="images/icon.png"></a><br>
+	</div>
+	<div class="navbar">
+		<a href=""><img src="images/icons8-schoolboy-at-a-desk-64.png">
+			Students</a><br> <a class="active" href=""><img
+			src="images/icons8-book-50.png">LessonPlan</a><br> <a href="" style="margin-left: 10%" ><img
+			src="images/icons8-settings-64.png"><br>Settings</a><br>
+	</div>
+	<br>
+	<br>
+	<div class="content">
+		<br> <br> <a href="" style="font-size: 28px;"><img
+			src="images/leftarrow.png">Videos</a> <br> <br> <input
+			type="text" style="font-weight: 800;" placeholder="Insert URL here"><br>
+		<h5 style="margin-left: 45%">or</h5>
+		<div class="container">
+			<img id="blah" onclick="document.getElementById('img').click()" /> <input
+				type="file" style="visibility: hidden;"
+				onchange="document.getElementById('blah').src = window.URL.createObjectURL(this.files[0])"
+				id="img" name="image">
+			<div class="centered">Upload</div>
+		</div>
+		<br>
+	</div>
+</body>
+</html>
